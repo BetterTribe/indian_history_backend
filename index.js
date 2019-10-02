@@ -10,6 +10,8 @@ app.use(
   })
 )
 
+app.get("/")
+
 app.listen(port, () => {
     console.log(`App running on port ${port}.`)
 })
